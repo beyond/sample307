@@ -1,4 +1,8 @@
 Sample::Application.routes.draw do
+  resources :articles
+
+  resources :authors
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
